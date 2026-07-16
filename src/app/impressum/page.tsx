@@ -1,0 +1,1 @@
+import type { Metadata } from "next"; export const metadata:Metadata={title:"Impressum"}; export default function Imprint(){return <section className="shell prose-page"><h1>Impressum</h1><aside className="placeholder"><p>[IMPRESSUMSDATEN]</p></aside>{/* Vor Veröffentlichung durch vollständige und rechtlich geprüfte Angaben ersetzen. */}</section>;}

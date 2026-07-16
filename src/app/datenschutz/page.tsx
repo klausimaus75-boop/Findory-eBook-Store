@@ -1,0 +1,1 @@
+import type { Metadata } from "next"; export const metadata:Metadata={title:"Datenschutz"}; export default function Privacy(){return <section className="shell prose-page"><h1>Datenschutz</h1><aside className="placeholder"><p>[DATENSCHUTZTEXT]</p></aside></section>;}

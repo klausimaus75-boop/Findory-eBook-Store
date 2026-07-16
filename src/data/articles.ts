@@ -1,0 +1,9 @@
+export type Article = { slug: string; title: string; description: string; category: string; content: string[] };
+
+export const articles: Article[] = [
+  { slug: "wie-funktioniert-voice-cloning", title: "Wie funktioniert Voice-Cloning?", description: "Eine verständliche Einführung in künstlich erzeugte Stimmen und die Methoden moderner Telefonbetrüger.", category: "Digitale Sicherheit", content: ["Voice-Cloning bezeichnet das künstliche Nachbilden einer Stimme mithilfe von Software. Schon kurze Tonaufnahmen können dafür missbraucht werden.", "Wichtig ist nicht, die Technik perfekt zu verstehen. Entscheidend ist ein ruhiger Gegencheck: Auflegen, selbst zurückrufen und ein vereinbartes Familien-Codewort nutzen."] },
+  { slug: "digitaler-notfallordner", title: "Was gehört in einen digitalen Notfallordner?", description: "Die wichtigsten Konten, Dokumente und Informationen, die Angehörige im Ernstfall benötigen.", category: "Vorsorge", content: ["Ein digitaler Notfallordner ist eine geordnete Übersicht – kein ungeschütztes Passwortarchiv. Er hält fest, welche Konten und Unterlagen existieren und wo sich sichere Zugänge befinden.", "Beginne mit einer Bestandsaufnahme und prüfe sie regelmäßig. So bleibt die Übersicht auch dann hilfreich, wenn sich etwas ändert."] },
+  { slug: "persoenliche-informationen-schuetzen", title: "Welche persönlichen Informationen sollte man nicht öffentlich teilen?", description: "Eine praktische Übersicht über Daten, die Betrüger für glaubwürdige Angriffe verwenden können.", category: "Digitale Sicherheit", content: ["Einzelne Informationen wirken oft harmlos. In Kombination können sie Kriminellen jedoch helfen, glaubwürdige Geschichten zu erfinden.", "Prüfe besonders Angaben zu Familie, Reisen, Kontaktdaten und Sicherheitsfragen. Weniger öffentliche Details machen Angriffe schwieriger."] },
+];
+
+export const getArticle = (slug: string) => articles.find((article) => article.slug === slug);

@@ -1,0 +1,8 @@
+node_modules
+.next
+out
+*.log
+.env*
+tsconfig.tsbuildinfo
+findory-*-render.png
+findory-home-concept.png

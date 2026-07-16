@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function NotFound(){return <section className="shell not-found"><p className="category">404</p><h1>Diese Seite gibt es nicht.</h1><p className="lead">Vielleicht führt dich einer der folgenden Wege wieder zu einem passenden Ratgeber.</p><Link href="/" className="button button-primary">Zur Startseite</Link></section>;}
